@@ -1,0 +1,38 @@
+<?xml encoding="UTF-8"?>
+
+        <!ELEMENT CATALOG (CD)+>
+        <!ATTLIST CATALOG
+                xmlns CDATA #FIXED ''>
+
+        <!ELEMENT CD (TITLE,ARTIST,COUNTRY,(COMPANY|COMPNY),PRICE,YEAR)>
+        <!ATTLIST CD
+                xmlns CDATA #FIXED ''
+                id CDATA #REQUIRED>
+
+        <!ELEMENT TITLE (#PCDATA)>
+        <!ATTLIST TITLE
+                xmlns CDATA #FIXED ''>
+
+        <!ELEMENT ARTIST (#PCDATA)>
+        <!ATTLIST ARTIST
+                xmlns CDATA #FIXED ''>
+
+        <!ELEMENT COUNTRY (#PCDATA)>
+        <!ATTLIST COUNTRY
+                xmlns CDATA #FIXED ''>
+
+        <!ELEMENT COMPANY (#PCDATA)>
+        <!ATTLIST COMPANY
+                xmlns CDATA #FIXED ''>
+
+        <!ELEMENT COMPNY (#PCDATA)>
+        <!ATTLIST COMPNY
+                xmlns CDATA #FIXED ''>
+
+        <!ELEMENT PRICE (#PCDATA)>
+        <!ATTLIST PRICE
+                xmlns CDATA #FIXED ''>
+
+        <!ELEMENT YEAR (#PCDATA)>
+        <!ATTLIST YEAR
+                xmlns CDATA #FIXED ''>

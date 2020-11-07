@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE CATALOG SYSTEM "lr5.dtd">
+<CATALOG>
+    <CD id="1">
+        <TITLE>Empire Burlesque</TITLE>
+        <ARTIST>Bob Dylan</ARTIST>
+        <COUNTRY>USA</COUNTRY>
+        <COMPANY>Columbia</COMPANY>
+        <PRICE>10.90</PRICE>
+        <YEAR>-2051</YEAR>
+    </CD>
+    <CD id="2">
+        <TITLE>Romanza</TITLE>
+        <ARIST>Andrea Bocelli</ARIST>
+        <COUNTRY>EU</COUNTRY>
+        <COMPANY>Polydor</COMPANY>
+        <PRICE>10.80</PRICE>
+        <YEAR>1996</YEAR>
+    </CD>
+</CATALOG>
